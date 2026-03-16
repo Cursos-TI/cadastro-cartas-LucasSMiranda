@@ -11,12 +11,32 @@ int main(){
   float area, pib;
   int ponto_turistico;
 
-  // Área para entrada de dados
+  // Área para entrada de dados")
 
-  printf("")
+  printf("Digite o estado: \n");
+  scanf("%s", &estado);
+
+  printf("Digite o código da carta: \n");
+  scanf("%s", &cod);
+
+  printf("Digite o nome da cidade: \n");
+  scanf("%s", &cidade);
+
+  printf("Digite a população: \n");
+  scanf(%d", &populacao);
+
+  printf("Digite a area: \n");
+  scanf("%f", &area);
+
+  printf("Digite o pib, \n");
+  scanf("%f", &pib);
+
+  printf(Digite o ponto turistico: \n);
+  scanf("%d", &p_turis);
+
+
 
       // Área para exibição dos dados da cidade
 
       return 0;
-}
 }
