@@ -14,13 +14,13 @@ int main(){
   // Área para entrada de dados")
 
   printf("Digite o estado: \n");
-  scanf("%s", estado);
+  scanf(" %[^\n]", estado);
 
   printf("Digite o código da carta: \n");
   scanf("%s", &cod);
 
   printf("Digite o nome da cidade: \n");
-  scanf("%s", cidade);
+  scanf(" %[^\n]", cidade);
 
   printf("Digite a população: \n");
   scanf("%d", &populacao);
@@ -28,7 +28,7 @@ int main(){
   printf("Digite a area: \n");
   scanf("%f", &area);
 
-  printf("Digite o pib, \n");
+  printf("Digite o pib: \n");
   scanf("%f", &pib);
 
   printf("Digite o ponto turistico: \n");
