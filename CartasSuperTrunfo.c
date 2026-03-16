@@ -6,10 +6,10 @@
 
 int main(){
   // Área para definição das variáveis para armazenar as propriedades das cidades
-  char estado[50], codigo_carta[50], nome_cidade[50];
+  char estado[50], cod[50], cidade[50];
   int populacao;
   float area, pib;
-  int ponto_turistico;
+  int p_turis;
 
   // Área para entrada de dados")
 
@@ -37,6 +37,8 @@ int main(){
 
 
       // Área para exibição dos dados da cidade
+
+      printf("Nome estado: %s \n", estado);
 
       return 0;
 }
