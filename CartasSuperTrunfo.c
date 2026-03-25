@@ -14,6 +14,7 @@ int main(){
   float area1;
   float pib1;
   int p_turis1;
+  float dens_po;
 
   //carta2
   char estado2;
@@ -23,6 +24,8 @@ int main(){
   float area2;
   float pib2;
   int p_turis2;
+  float dens_popu;
+  float pib_p;
 
   // Área para entrada de dados")
 
