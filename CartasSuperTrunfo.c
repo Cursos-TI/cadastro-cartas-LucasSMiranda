@@ -98,6 +98,8 @@ int main(){
       printf("Área: %2.f km² \n", area1);
       printf("Pib: %2.f bilhões de Reais\n", pib1);
       printf("Número de pontos turísticos: %d \n", p_turis1);
+      printf("A densidade populacional é %f \n ", dens_popu1);
+      printf("O pib per capita é %f \n", pib_p1);
 
 
       // Área para exibição dos dados da cidade2
@@ -109,6 +111,8 @@ int main(){
       printf("Área: %.2f km² \n", area2);
       printf("Pib: %.2f bilhões de Reais\n", pib2);
       printf("Número de pontos turísticos: %d \n", p_turis2);
+      printf("A densidade populacional é %f \n ", dens_popu2);
+      printf("O pib per capita é %f \n", pib_p2);
 
 
       return 0;
