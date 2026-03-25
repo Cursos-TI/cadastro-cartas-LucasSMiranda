@@ -14,7 +14,8 @@ int main(){
   float area1;
   float pib1;
   int p_turis1;
-  float dens_po;
+  float dens_popu1;
+  float pib_p1;
 
   //carta2
   char estado2;
@@ -24,8 +25,8 @@ int main(){
   float area2;
   float pib2;
   int p_turis2;
-  float dens_popu;
-  float pib_p;
+  float dens_popu2;
+  float pib_p2;
 
   // Área para entrada de dados")
 
@@ -77,6 +78,15 @@ int main(){
   printf("Digite o número de pontos turisticos: \n");
   scanf("%d", &p_turis2);
 
+  //Cálculo da densidade populacional
+
+  dens_popu1 = populacao1 / area1;
+  dens_popu2 = populacao2 / populacao2;
+
+  //Cálculo do Pib per capita
+
+  pib_p1 = pib1 / populacao2;
+  pib_p2 = pib2 / populacao2;
 
 
       // Área para exibição dos dados da cidade1
