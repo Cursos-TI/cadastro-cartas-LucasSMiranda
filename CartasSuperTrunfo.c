@@ -85,7 +85,7 @@ int main(){
 
   //Cálculo do Pib per capita
 
-  pib_p1 = pib1 / populacao2;
+  pib_p1 = pib1 / populacao1;
   pib_p2 = pib2 / populacao2;
 
 
