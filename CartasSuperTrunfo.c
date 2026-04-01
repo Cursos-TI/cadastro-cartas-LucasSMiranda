@@ -17,6 +17,7 @@ int main(){
   float dens_popu1;
   float pib_p1;
   float super_poder1;
+  float inversoDensidade1;
 
   //carta2
   char estado2;
@@ -29,6 +30,7 @@ int main(){
   float dens_popu2;
   float pib_p2;
   float super_poder2;
+  float inversoDensidade2;
 
   // Área para entrada de dados")
 
@@ -90,6 +92,16 @@ int main(){
   pib_p1 = pib1 / populacao1;
   pib_p2 = pib2 / populacao2;
 
+  //Cálculo do inverso da densidade
+
+  inversoDensidade1 = 1.0f / dens_popu1;
+  inversoDensidade2 = 1.0f / dens_popu2;
+
+  //Cálculo do super poder
+
+  super_poder1 = populacao1 + area1 + pib1 + p_turis1+ pib1 + inversoDensidade1;
+  super_poder2 = populacao2 + area2 + pib2 + p_turis2+ pib2 + inversoDensidade2;
+
 
       // Área para exibição dos dados da cidade1
       printf("Carta 1:\n");
@@ -102,16 +114,9 @@ int main(){
       printf("Número de pontos turísticos: %d \n", p_turis1);
       printf("A densidade populacional é %f \n ", dens_popu1);
       printf("O pib per capita é %f \n", pib_p1);
+      printf("O super poder é %.2f\n", super_poder1);
 
-      //Cálculo do inverso da densidade
-
-      float inversoDensidade = 1.0f / dens_popu1;
-      float inversoDensidade = 1.0f / dens_popu2;
-
-      //Cálculo do super poder
-
-      float superPoder1 = populacao1 + area1 + pib1 + p_turis1+ pib1 + inversoDensidade;
-      float superPoder2 = populacao2 + area2 + pib2 + p_turis2+ pib2 + inversoDensidade;
+      
 
 
 
@@ -126,6 +131,7 @@ int main(){
       printf("Número de pontos turísticos: %d \n", p_turis2);
       printf("A densidade populacional é %f \n ", dens_popu2);
       printf("O pib per capita é %f \n", pib_p2);
+      printf("O super poder é %.2f\n", super_poder2);
 
 
       return 0;
