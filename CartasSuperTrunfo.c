@@ -113,7 +113,7 @@ int main(){
       printf("Pib: %2.f bilhões de Reais\n", pib1);
       printf("Número de pontos turísticos: %d \n", p_turis1);
       printf("A densidade populacional é %f \n ", dens_popu1);
-      printf("O pib per capita é %f \n", pib_p1);
+      printf("O pib per capita é R$%f \n", pib_p1);
       printf("O super poder é %.2f\n", super_poder1);
 
       
@@ -130,7 +130,7 @@ int main(){
       printf("Pib: %.2f bilhões de Reais\n", pib2);
       printf("Número de pontos turísticos: %d \n", p_turis2);
       printf("A densidade populacional é %f \n ", dens_popu2);
-      printf("O pib per capita é %f \n", pib_p2);
+      printf("O pib per capita é R$%f \n", pib_p2);
       printf("O super poder é %.2f\n", super_poder2);
 
 
