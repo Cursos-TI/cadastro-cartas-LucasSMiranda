@@ -85,7 +85,7 @@ int main(){
   //Cálculo da densidade populacional
 
   dens_popu1 = populacao1 / area1;
-  dens_popu2 = populacao2 / populacao2;
+  dens_popu2 = populacao2 / area2;
 
   //Cálculo do Pib per capita
 
