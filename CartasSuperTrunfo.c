@@ -102,6 +102,8 @@ int main(){
   super_poder1 = populacao1 + area1 + pib1 + p_turis1 +  inversoDensidade1;
   super_poder2 = populacao2 + area2 + pib2 + p_turis2 + inversoDensidade2;
 
+  
+
 
       // Área para exibição dos dados da cidade1
       printf("Carta 1:\n");
@@ -148,6 +150,13 @@ printf("Densidade Populacional: Carta %d venceu (%d)\n", (dens_popu1 < dens_popu
 printf("PIB per Capita: Carta %d venceu (%d)\n", (pib1 > pib2 ? 1 : 2), (pib1 > pib2));
 printf("Super Poder: Carta %d venceu (%d)\n", (super_poder1 > super_poder2 ? 1 : 2), (super_poder1 > super_poder2));
 
-
+//Comparação entre duas cartas e exibição dos resultados
+      printf("\n\n******Comparação entre as cartas******\n\n");
+  if(populacao1 > populacao2){
+    printf("Carta 1 tem maior população\n");
+  } else if(populacao1 < populacao2){
+    printf("Carta 2 tem maior população\n");
+      } 
+      
       return 0;
 }
