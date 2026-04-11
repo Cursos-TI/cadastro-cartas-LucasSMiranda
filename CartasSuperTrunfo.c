@@ -7,30 +7,30 @@
 int main(){
   // Área para definição das variáveis para armazenar as propriedades das cidades
   //carta1
-  char estado1;
-  char cod1[3];
-  char cidade1[50];
+  //char estado1;
+  //char cod1[3];
+  //char cidade1[50];
   unsigned long int populacao1;
   float area1;
   float pib1;
   int p_turis1;
   float dens_popu1;
-  float pib_p1;
-  float super_poder1;
+  //float pib_p1;
+  //float super_poder1;
   float inversoDensidade1;
   char pais1[50];
 
   //carta2
-  char estado2;
-  char cod2[3];
-  char cidade2[50];
+  //char estado2;
+  //char cod2[3];
+  //char cidade2[50];
   unsigned long int populacao2;
   float area2;
   float pib2;
   int p_turis2;
   float dens_popu2;
-  float pib_p2;
-  float super_poder2;
+  //float pib_p2;
+  //float super_poder2;
   float inversoDensidade2;
   char pais2[50];
 
@@ -101,8 +101,8 @@ int main(){
 
   //Cálculo do Pib per capita
 
-  pib_p1 = pib1 / populacao1;
-  pib_p2 = pib2 / populacao2;
+  //pib_p1 = pib1 / populacao1;
+  //pib_p2 = pib2 / populacao2;
 
   //Cálculo do inverso da densidade
 
@@ -111,26 +111,25 @@ int main(){
 
   //Cálculo do super poder
 
-  super_poder1 = populacao1 + area1 + pib1 + p_turis1 +  inversoDensidade1;
-  super_poder2 = populacao2 + area2 + pib2 + p_turis2 + inversoDensidade2;
+  //super_poder1 = populacao1 + area1 + pib1 + p_turis1 +  inversoDensidade1;
+  //super_poder2 = populacao2 + area2 + pib2 + p_turis2 + inversoDensidade2;
 
   printf("Escolha um atributo para comparar as cartas: \n");
   printf("1 - População \n");
   printf("2 - Área \n");
-  printf("3 - PIB \n");
+  printf("3 - Pib \n");
   printf("4 - Pontos Turísticos \n");
   printf("5 - Densidade Populacional \n");
-  printf("6 - PIB per Capita \n");
-  printf("7 - Super Poder \n");
+  printf("Opção: \n");
   scanf("%d", &escolha);  
 
-    print("*****Resultado do jogo*****\n");
-    printf("Carta 1 - %s: %d\n", cidade1, populacao1);
-    printf("Carta 2 - %s: %d\n", cidade2, populacao2);
-    switch (escolha)
+    printf("*****Resultado do jogo*****\n");
+    printf("Carta 1 (%s) vs Carta 2 (%s)\n", pais1, pais2);
+
+    *switch (escolha);
     {
     case 1:
-      printf("")
+      printf("");
       break;
     
     default:
