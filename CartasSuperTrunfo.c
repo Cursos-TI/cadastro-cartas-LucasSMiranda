@@ -105,7 +105,7 @@ int main(){
   
 
 
-      // Área para exibição dos dados da cidade1
+      /* Área para exibição dos dados da cidade1
       printf("Carta 1:\n");
       printf("Nome estado: %c \n", estado1);
       printf("Código: %s \n", cod1);
@@ -157,6 +157,6 @@ printf("Super Poder: Carta %d venceu (%d)\n", (super_poder1 > super_poder2 ? 1 :
   } else if(populacao1 < populacao2){
     printf("Carta 2 tem maior população\n");
       } 
-      
+      */
       return 0;
 }
