@@ -18,6 +18,7 @@ int main(){
   float pib_p1;
   float super_poder1;
   float inversoDensidade1;
+  char pais1[50];
 
   //carta2
   char estado2;
@@ -31,12 +32,19 @@ int main(){
   float pib_p2;
   float super_poder2;
   float inversoDensidade2;
+  char pais2[50];
+
+  //Dados switch
+  int escolha;
 
   // Área para entrada de dados")
 
   //Cadastro carta 1:
+
+  printf("Digite o nome do país: \n");
+  scanf(" %[^\n]s", pais1);
   
-  printf("Cadastro da carta 1  \n");
+ /*printf("Cadastro da carta 1  \n");
   printf("Digite o estado: \n");
   scanf(" %c", &estado1);
 
@@ -44,7 +52,7 @@ int main(){
   scanf(" %s", &cod1);
 
   printf("Digite o nome da cidade: \n");
-  scanf(" %[^\n]s", cidade1);
+  scanf(" %[^\n]s", cidade1);*/
 
   printf("Digite a população: \n");
   scanf("%lu", &populacao1);
@@ -60,7 +68,11 @@ int main(){
 
   //Cadastro carta 2:
 
-  printf("Cadastro da carta 2  \n");
+
+  printf("Digite o nome do país: \n");
+  scanf(" %[^\n]s", pais2);
+
+  /*printf("Cadastro da carta 2  \n");
   printf("Digite o estado (A-H): \n");
   scanf(" %c", &estado2);
 
@@ -68,7 +80,7 @@ int main(){
   scanf("%s", &cod2);
 
   printf("Digite o nome da cidade: \n");
-  scanf(" %[^\n]s", cidade2);
+  scanf(" %[^\n]s", cidade2);*/
 
   printf("Digite a população: \n");
   scanf("%lu", &populacao2);
@@ -102,6 +114,28 @@ int main(){
   super_poder1 = populacao1 + area1 + pib1 + p_turis1 +  inversoDensidade1;
   super_poder2 = populacao2 + area2 + pib2 + p_turis2 + inversoDensidade2;
 
+  printf("Escolha um atributo para comparar as cartas: \n");
+  printf("1 - População \n");
+  printf("2 - Área \n");
+  printf("3 - PIB \n");
+  printf("4 - Pontos Turísticos \n");
+  printf("5 - Densidade Populacional \n");
+  printf("6 - PIB per Capita \n");
+  printf("7 - Super Poder \n");
+  scanf("%d", &escolha);  
+
+    print("*****Resultado do jogo*****\n");
+    printf("Carta 1 - %s: %d\n", cidade1, populacao1);
+    printf("Carta 2 - %s: %d\n", cidade2, populacao2);
+    switch (escolha)
+    {
+    case 1:
+      printf("")
+      break;
+    
+    default:
+      break;
+    }
   
 
 
